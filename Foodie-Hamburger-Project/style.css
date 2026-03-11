@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f6f0eb;
+  font-family: 'Poppins', sans-serif;
+  color: #492118;
+}
+
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 3%;
+}
+
+.logo {
+  height: 60px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.navbar li a {
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  color: inherit;
+  padding: 10px 20px;
+}
+
+.navbar li a:hover {
+  color: #c0392b; /* or any accent color you like */
+}
+
+.hamburger-menu {
+  display: none;
+  background-color: #ffffff;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #492118;
+  padding: 0.7rem 1.5rem;
+  border-bottom-left-radius: 90px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.hero-section {
+  margin-block: 100px;
+}
+
+.hero-img {
+  max-width: 1200px;
+  width: 100%;
+  display: block;
+  margin: 10px auto;
+}
+
+.hero-section p {
+  font-weight: 400;
+  color: #492118;
+  text-align: center;
+}
+
+section {
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+section img {
+  max-width: 1000px;
+  width: 100%;
+  margin-top: 3rem;
+  height: auto;
+}
+
+section h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.go-top{
+  max-width: 1000px;
+  width: 100%;
+  text-align: right;
+  font-size: 1.5rem;
+  color: inherit;
+  font-weight: 700;
+  margin-bottom: 50px;
+  
+}
+
+.owner {
+  text-align: center;
+  font-weight: 500;
+  color: #858585;
+}
+
+
+@media (890px < width < 1200px) {
+
+  .navbar li a{
+      font-size: 15px;
+  }
+
+  section img {
+    padding: 0 3rem;
+  }
+
+  .hero-img {
+    padding: 0 3rem;
+  }
+
+  .go-top {
+    padding-right: 3rem;
+  }
+}
+
+@media (width < 890px) {
+  .navbar {
+    background-color: #f6f0eb;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .hero-section {
+    margin-block: 70px;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .hero-img {
+    width: 100%;
+    padding: 0 1.2rem;
+  }
+
+  .hero-section p {
+    font-size: 12px;
+  }
+
+  section {
+    margin-bottom: 60px;
+  }
+
+  section img {
+    padding: 0 2.5rem;
+  }
+
+  section h2 {
+    font-size: 1.5rem;
+  }
+
+  .go-top {
+    padding-right: 2.5rem;
+    font-size: 1rem;
+  }
+
+  .owner{
+    font-size: 10px;
+  }
+}
