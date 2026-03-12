@@ -8,3 +8,5 @@ A collection of small projects built using HTML, CSS, and JavaScript.
 - [QR Code Generator](./QR-Code-Generator)
 - [To-do (Focus on Today)](./todo-focus-on-today)
 - [Pop-up](./pop-up)
+- [PassWord Strength Indicator](./password-strength-indicator)
+
