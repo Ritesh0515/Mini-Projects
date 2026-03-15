@@ -9,4 +9,5 @@ A collection of small projects built using HTML, CSS, and JavaScript.
 - [To-do (Focus on Today)](./todo-focus-on-today)
 - [Pop-up](./pop-up)
 - [PassWord Strength Indicator](./password-strength-indicator)
-
+- [Quiz App](./Quiz-App)
+- [Jumping Letter Animation](./jumping-letter-animation)
